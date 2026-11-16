@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Soft glow halo around the ring -->
+    <path
+        android:fillType="evenOdd"
+        android:pathData="M22,54a32,32 0,1 0,64 0a32,32 0,1 0,-64 0zM27,54a27,27 0,1 0,54 0a27,27 0,1 0,-54 0z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="54"
+                android:centerY="54"
+                android:type="sweep">
+                <item
+                    android:color="#40FF2020"
+                    android:offset="0.0" />
+                <item
+                    android:color="#40FFE020"
+                    android:offset="0.1667" />
+                <item
+                    android:color="#4020FF40"
+                    android:offset="0.3333" />
+                <item
+                    android:color="#4020E8FF"
+                    android:offset="0.5" />
+                <item
+                    android:color="#402040FF"
+                    android:offset="0.6667" />
+                <item
+                    android:color="#40FF20E0"
+                    android:offset="0.8333" />
+                <item
+                    android:color="#40FF2020"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Color wheel ring: red > yellow > green > cyan > blue > magenta -->
+    <path
+        android:fillType="evenOdd"
+        android:pathData="M27,54a27,27 0,1 0,54 0a27,27 0,1 0,-54 0zM36,54a18,18 0,1 0,36 0a18,18 0,1 0,-36 0z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="54"
+                android:centerY="54"
+                android:type="sweep">
+                <item
+                    android:color="#FF2D2D"
+                    android:offset="0.0" />
+                <item
+                    android:color="#FFE82D"
+                    android:offset="0.1667" />
+                <item
+                    android:color="#2DFF4F"
+                    android:offset="0.3333" />
+                <item
+                    android:color="#2DEBFF"
+                    android:offset="0.5" />
+                <item
+                    android:color="#2D4FFF"
+                    android:offset="0.6667" />
+                <item
+                    android:color="#FF2DE8"
+                    android:offset="0.8333" />
+                <item
+                    android:color="#FF2D2D"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Power glyph -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M59.14,48.87A8,8 0,1 1,48.86 48.87"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeWidth="3" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,46L54,54.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeWidth="3" />
+</vector>
