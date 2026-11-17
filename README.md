@@ -1,8 +1,18 @@
-# MyLED
+<p align="center">
+  <img src="design/ic_launcher_round_512.png" alt="MyLED app icon" width="128">
+</p>
+
+<h1 align="center">MyLED</h1>
 
 A standalone **Wear OS** app for controlling cheap Bluetooth LE LED strips (ELK-BLEDOM / duoCo-style controllers) straight from your watch — no phone required.
 
 Pick a colour on a wheel, dim with the rotating bezel, toggle power from a tile, and wake up to a "sunrise" alarm that fades the strip on at a set time.
+
+<p align="center">
+  <img src="docs/images/watch-blue.jpg" alt="MyLED on a watch with the LED strip lit blue" width="320">
+  &nbsp;
+  <img src="docs/images/watch-pink.jpg" alt="MyLED on a watch with the LED strip lit pink" width="320">
+</p>
 
 ## Features
 
